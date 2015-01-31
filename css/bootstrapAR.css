@@ -1,3 +1,4 @@
+/* Changes made by Rohan Likhite */
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -1077,8 +1078,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  color: #999;
+  background-color: #1E1E20;
 }
 input,
 button,
@@ -1089,12 +1090,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #DC3522;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #9E2618;
   text-decoration: underline;
 }
 a:focus {
@@ -4378,10 +4379,124 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
   }
 }
+
+
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
 }
+/*Navbar AR */
+.navbar-AR {
+  background-color: #101922;
+  border-color: #000;
+}
+
+.navbar-AR .navbar-brand {
+  color: #fff;
+}
+.navbar-AR .navbar-brand:hover,
+.navbar-AR .navbar-brand:focus {
+  color: #c2313e;
+  background-color: transparent;
+}
+.navbar-AR .navbar-text {
+  color: #fff;
+}
+.navbar-AR .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-AR .navbar-nav > li > a:hover,
+.navbar-AR .navbar-nav > li > a:focus {
+  color: #c2313e;
+  background-color: transparent;
+}
+.navbar-AR .navbar-nav > .active > a,
+.navbar-AR .navbar-nav > .active > a:hover,
+.navbar-AR .navbar-nav > .active > a:focus {
+  color: #c2313e;
+  background-color: #080808;
+}
+.navbar-AR .navbar-nav > .disabled > a,
+.navbar-AR .navbar-nav > .disabled > a:hover,
+.navbar-AR .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-AR .navbar-toggle {
+  border-color: #333;
+}
+.navbar-AR .navbar-toggle:hover,
+.navbar-AR .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-AR .navbar-toggle .icon-bar {
+  background-color: #c2313e;
+}
+.navbar-AR .navbar-collapse,
+.navbar-AR .navbar-form {
+  border-color: #101010;
+}
+.navbar-AR .navbar-nav > .open > a,
+.navbar-AR .navbar-nav > .open > a:hover,
+.navbar-AR .navbar-nav > .open > a:focus {
+  color: #c2313e;
+  background-color: #080808;
+}
+@media (max-width: 767px) {
+  .navbar-AR .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #080808;
+  }
+  .navbar-AR .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808;
+  }
+  .navbar-AR .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .navbar-AR .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-AR .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c2313e;
+    background-color: transparent;
+  }
+  .navbar-AR .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-AR .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-AR .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c2313e;
+    background-color: #080808;
+  }
+  .navbar-AR .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-AR .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-AR .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+}
+.navbar-AR .navbar-link {
+  color: #fff;
+}
+.navbar-AR .navbar-link:hover {
+  color: #c2313e;
+}
+.navbar-AR .btn-link {
+  color: #fff;
+}
+.navbar-AR .btn-link:hover,
+.navbar-AR .btn-link:focus {
+  color: #c2313e;
+}
+.navbar-AR .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-AR .btn-link:hover,
+.navbar-AR .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-AR .btn-link:focus {
+  color: #444;
+}
+
+
+
+
+
+
+/* /Navbar AR */
+
 .navbar-default .navbar-brand {
   color: #777;
 }
@@ -4841,7 +4956,8 @@ a.badge:focus {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #1D2326;
+    height:400px;
 }
 .jumbotron h1,
 .jumbotron .h1 {
