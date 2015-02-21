@@ -29,8 +29,9 @@
 
   <body>
 <!-- Fixed navbar -->
-    <nav class="navbar navbar-AR navbar-fixed-top">
-      <div class="container">
+    
+    <nav  class="navbar navbar-AR navbar-fixed-top">
+      <div class="navContainer">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -61,9 +62,14 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+      
+      
 
-    <div class="container theme-showcase" role="main">
-
+    <div class="container" role="main">
+ <div class="alert alert-warning alert-dismissible fade in" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <strong>Holy guacamole!</strong> Best check yo self, you're not looking too good.
+    </div>
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>AR Theme example</h1>
@@ -596,11 +602,12 @@
 
     </div> <!-- /container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/bootstrapAR.min.js"></script>
+    <script  type="text/javascript"  src="js/headroom.min.js"></script>      
+   <script  type="text/javascript"  src="js/jquery.headroom.js"></script>
+      <script type="text/javascript">
+        $(".navbar-fixed-top").headroom();
+    </script> 
   </body>
 </html>
