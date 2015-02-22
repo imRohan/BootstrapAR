@@ -1569,7 +1569,7 @@ pre code {
     margin-top: 90px;
 }
 .navContainer {
-    padding-top: 15px;
+    padding-top: 10px;
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom:15px;
@@ -4151,7 +4151,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
     position: relative;
-    min-height: 77px;
+    max-height: 73px;
     margin-bottom: 20px;
     border: 1px solid transparent;
 }
