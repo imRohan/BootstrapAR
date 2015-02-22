@@ -4167,12 +4167,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-collapse {
     padding-right: 15px;
-    padding-left: 15px;
-    overflow-x: visible;
+    padding-left: 35px;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     border-top: 1px solid transparent;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+    background-color: #272a2c;
+    
 }
 .navbar-collapse.in {
     overflow-y: auto;
@@ -4289,6 +4291,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+    
 }
 .navbar-toggle:focus {
     outline: 0;
