@@ -3085,7 +3085,7 @@ select[multiple].form-group-lg .form-control {
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 4px;
+    
 }
 .btn:focus,
 .btn:active:focus,
@@ -3122,8 +3122,7 @@ fieldset[disabled] .btn {
 }
 .btn-default {
     color: #333;
-    background-color: #fff;
-    border-color: #ccc;
+    background-color: #4ae4aa;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -3166,9 +3165,8 @@ fieldset[disabled] .btn-default.active {
     background-color: #333;
 }
 .btn-primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
+    color: #333;
+    background-color: #6ba8d9;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -3428,21 +3426,21 @@ fieldset[disabled] .btn-link:focus {
     padding: 10px 16px;
     font-size: 18px;
     line-height: 1.3333333;
-    border-radius: 6px;
+    
 }
 .btn-sm,
 .btn-group-sm > .btn {
     padding: 5px 10px;
     font-size: 12px;
     line-height: 1.5;
-    border-radius: 3px;
+    
 }
 .btn-xs,
 .btn-group-xs > .btn {
     padding: 1px 5px;
     font-size: 12px;
     line-height: 1.5;
-    border-radius: 3px;
+    
 }
 .btn-block {
     display: block;
