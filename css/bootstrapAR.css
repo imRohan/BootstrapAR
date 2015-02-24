@@ -3303,7 +3303,7 @@ fieldset[disabled] .btn-info.active {
 .btn-warning {
     color: #fff;
     background-color: #f0ad4e;
-    border-color: #eea236;
+    
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -4966,20 +4966,23 @@ a.label:focus {
     top: -1px;
 }
 .label-default {
-    background-color: #777;
+    color: #333;
+    background-color: #4ae4aa;
 }
 .label-default[href]:hover,
 .label-default[href]:focus {
     background-color: #5e5e5e;
 }
 .label-primary {
-    background-color: #337ab7;
+    color: #333;
+    background-color: #6ba8d9;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
     background-color: #286090;
 }
 .label-success {
+    color:#333;
     background-color: #5cb85c;
 }
 .label-success[href]:hover,
@@ -4987,6 +4990,7 @@ a.label:focus {
     background-color: #449d44;
 }
 .label-info {
+    color:#333;
     background-color: #5bc0de;
 }
 .label-info[href]:hover,
@@ -4994,6 +4998,7 @@ a.label:focus {
     background-color: #31b0d5;
 }
 .label-warning {
+    color:#333;
     background-color: #f0ad4e;
 }
 .label-warning[href]:hover,
@@ -5001,7 +5006,8 @@ a.label:focus {
     background-color: #ec971f;
 }
 .label-danger {
-    background-color: #d9534f;
+      color: #333;
+    background-color: #f16367;
 }
 .label-danger[href]:hover,
 .label-danger[href]:focus {
